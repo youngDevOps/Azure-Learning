@@ -1,0 +1,97 @@
+Azure AZ-900 Learning Notes
+
+Cloud Computing Advantages:
+
+	- Reliability
+	- Scalability (Horizontally/Vertically)
+	- Elasticity 
+	- Geo-distribution
+	- Disaster Recovery
+
+Cloud Services:
+	- IaaS (Infrastructure As A Serice ) - Almost managing everything.
+	- PaaS (Platform As A Service) - Managed hosting environment.
+	- SaaS ( Software As A Service) - Cloud Provider pretty much manages everything.
+
+Serverless Computing - Developers can build applications quicker without managing underlying infrastructure.
+
+Cloud Types:
+	- Public Cloud - Services are offered over the public internet for all customers. Cloud Resources are managed by Cloud Provider e.g. Azure
+	- Private Cloud - Computing Resources are used exclusively from one business or organisation. Can be located On-Prem or hosted by third party
+	- Hybrid Cloud - Combines Public and Private Cloud by allowing data and applications to be shared between them.
+
+Azure 
+
+Azure Benefits:
+	- Ready for future - Continous Innovation from Microsoft.
+	- Build in any language - Support for all languages and frameworks and commitment to open source.
+	- Operate hybrid seamlessey - Ability to use hybrid easily
+	- Security and Compliance - Strong secuirty and compliance
+
+How does Azure work - Azure Potal/CLI -> API -> Orchestrator -> Network Switch -> Fabric Controller -> Server (Using Virtulisation and Hyper V).
+
+Azure Portal:
+	- Web Based Portal for Azure through GUI
+	- Build, Manage and monitor Azure services
+	- Create custom dashboards for resources
+	- Configure accesibility options for optimal experiences
+	- Designed for resiliency and continous availability
+
+Azure Marketplace - Helps connect users with Microsoft partners, independent software vendors and startups offering their solutions and services which are optimised for Azure.
+
+Azure Categories:
+
+Compute:
+	- Azure Virtual Machines - Windows or Linux VMs
+	- Azure Virtual Machine Scale Sets - Scaling for Windows/Linux VMs
+	- Azure Kubernetes Service - Cluster managment for VMs that run containorized services
+	- Azure Service Fabric - Distributed systems that runs in Azure or on-premises
+	- Azure Batch - Managed service for parallel and high perfromance computing applications
+	- Azure Container Instances - Containorized apps on Azure without provisioning servers or VMs
+	- Azure Functions - Event driven, serverless compute service.
+
+Networking:
+
+	- Azure Virtual Network - Connects VMs to incoming VPN connections
+	- Azure Load Balancer - Balances inbound and outbound connections to applications or service endpoints
+	- Azure Application Gateway - Optimises app sever farm delivery while increasing application secuirty
+	- Azure VPN gateway - Accesses Azure Virtual Networks through high perfromance VPN gateways.
+	- Azure DNS - Provides DNS Responses and high domain avalability
+	- Azure CDN - Delivers high-bandwidth content to customers gloablly.
+	- Azure DDoS protection - Protects Azure services from DDoS attacks.
+	- Azure Traffic manager - Distributes network traffic across Azure regions worldwide.
+	- Azure ExpressRoute - Connects to Azure over high-bandwidth dedicated secure connections.
+	- Azure Network Watcher - Monitors and diagnoses network issues by using scenario-based analysis.
+	- Azure Firewall - Implements high secuirty, high availability firewall with unlimited scalabaility.
+	- Azure Virtual WAN - Creates a unified WAN that connects local and remote sites.
+
+Storage:
+	- Azure Blob Storage - Storage services for very large objects, such as video files or bitmaps.
+	- Azure File Storage - File shares that can be accessed and managed like a file server.
+	- Azure Queue Storage -  A data store for queining and reliably delivering messages between applications
+	- Azure Table Storage - A NoSQL store that hosts unstructured data independent of any schema.
+
+Mobile - Azure developers can create mobile back end services for IOS, Andriod and windows apps quickly and easily.
+
+Databases:
+	- Azure Cosmos DB - Globally distributed database that supports NoSQL options.
+	- Azure SQL DB - Fully managed relational DB with auto scale, integral intelligence and robust secuirty.
+	- Azure DB for MySQL - Fully managed and scalable MySQL relational databases with high availability and security.
+	- Azure DB for PostgreSQL - Fully managed and scalable PostgreSQL relational DB with high availability and secuirty.
+	- SQL Serer on Azure Virtual Machines - Service that hosts enterprise SQL server apps in the cloud.
+	- Azure Synapse Analytics - Fully managed data warehouse with integral security at every level of scale at no extra cost.
+	- Azure DB Migration Service - Service that migrates DB to the cloud with no application code changes.
+	- Azure Cache for Redis - Fully managed services caches frequently used and static data to reduce data and application latency.
+	- Azure DB for MariaDB - Fully managed and scalable MariaDB relational DB with high availability and secuirty.
+
+Web:
+	- Azure App Service - Quickly create powerful web based apps
+	- Azure Notification Hub - Send push notifications to any platform from any backend.
+	- Azure API Management - Publish APIs to developers, partners and employees securely and at scale.
+	- Azure Cognitive Search - Deploy fully managed search as a service
+	- Web Apps feature of Azure App Service - Create and depliy mission critical web apps at scale
+	- Azure SignalR Service - Add real-time web functionalities easily.
+
+
+
+
