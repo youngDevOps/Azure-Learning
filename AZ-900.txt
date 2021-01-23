@@ -194,7 +194,10 @@ Life Cycle:
 	 - Resource groups make it easy to remove a set of resources at once.
 
 Authorisation:
-	- 
+	- Resource Groups are also a scopr for role based access control (RBAC) permissions. 
+	- By applying RBAC to a resource group, you can ease administartion and limit access to allow only what's needed.
+
+Azure Resource Manager 
 				
 
 
