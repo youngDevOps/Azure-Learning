@@ -10,8 +10,14 @@ Cloud Computing Advantages:
 
 Cloud Services:
 	- IaaS (Infrastructure As A Serice ) - Almost managing everything.
+		- Advantages - No CapEx, Agility, Management, Consumption Based Model, Lower skills required, Cloud Benefits and flexibility
+		- Disadvantage - Just like normal infrasturcture, not utilising cloud services
 	- PaaS (Platform As A Service) - Managed hosting environment.
+		- Advantages - No CapEx, Agility, Consumption Based Model, Lower skills required, Cloud Benefits and productivity.
+		- Disadvantage - Platfrom Limitations
 	- SaaS ( Software As A Service) - Cloud Provider pretty much manages everything.
+		- Advantages - No CapEx, Agility, PAYG, Lower Skills required and flexibility.
+		- Disadvantage - Software Limitations.
 
 Serverless Computing - Developers can build applications quicker without managing underlying infrastructure.
 
@@ -19,6 +25,16 @@ Cloud Types:
 	- Public Cloud - Services are offered over the public internet for all customers. Cloud Resources are managed by Cloud Provider e.g. Azure
 	- Private Cloud - Computing Resources are used exclusively from one business or organisation. Can be located On-Prem or hosted by third party
 	- Hybrid Cloud - Combines Public and Private Cloud by allowing data and applications to be shared between them.
+
+Cloud Computing Consumption based model:
+	- No upfront Costs
+	- No need to purchse and manage costly infrastructure that users might not use to the fullest.
+	- The ability to pay for additional resources when they are needed.
+	- The ability to stop paying for resources that are no longer needed.
+
+CapEx vs OpEx:
+	- Capital Expenditure (CapEx) is the upfront spending of money on physical infrastructure, and then deducting that up front expense over time. The up front cost from CapEx has a value that reduces over time.
+	- Operational Expenditure (OpEx) is spending money on services or products now, and being billed for them now. You can deduct this expense in the same year you spend it. There is no upfront cost, as you pay for a service or product as you use it.
 
 Azure 
 
@@ -122,6 +138,19 @@ Azure Accounts:
 	- Can create account e.g. company or individual but then create additional subscriptions for departments e.g. Dev or sales fo differant Azure resources.
 	- Azure free account -  Free access to popular Azure services for 12 months, credit for the first 30 days and 25 always free services.
 	- Learn Sandbox - Creates a temporary subscription on yoru Azure account for the duration of the learn module to learn resources for free.
+
+Azure Top down organisation hierarchy:
+	- Resources - Azure Resources e.g. VMs
+	- Resource Groups - Resources are combined into resource groups which act as a logical Container.
+	- Subscriptions - A subscription group together user Accounts and the resources that have been created by those user Accounts
+	  For each subscription, there are limits or quotas on the amounts of resources that you can create or use.
+	  Organisations can use subscriptions to manage costs and the resources that are created by users, teams or projects.
+	- Management Groups - Groups that help you manage access, policy and compliance for multiple subscriptions. 
+	  All subscriptions in a management group automatically inherit the conditions applied to the management group.
+
+
+
+
 
 
 
