@@ -148,6 +148,13 @@ Azure Top down organisation hierarchy:
 	- Management Groups - Groups that help you manage access, policy and compliance for multiple subscriptions. 
 	  All subscriptions in a management group automatically inherit the conditions applied to the management group.
 
+Azure Subscriptions:
+	- Using Azure Requires a subscription
+	- A subscription provides you with authenticated and authorised access to Azure Products and Services
+	- Allows you to provision resources
+	- An Azure subscription is a logical unit of Azure Services that links to an Azure account, which is an identity of in Azure AD or in a directory, Azure Trusts.
+	
+
 
 
 
