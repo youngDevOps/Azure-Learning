@@ -175,6 +175,32 @@ Azure Subscriptions:
 		- Subscription limits - Subscriptions are bound to some hard limits e.g. the maximum number of Azure ExpressRoute circuits per subscription is 10. 
 		- Customise Billing - E.g. for clients or departments.
 
+Azure Resources:
+	- Resource - A managable item that's available through Azure
+	- Resource Group 
+		- A container that holds related resources for an Azure Solution.
+		- All resources must be in a resource group
+		- A resource can only be a member of a single resource group.
+		- Resources can not be nested.
+		- Before provisioned, a resource group must be available.
+		- Many resources can be moved however some have specific limitations or requirements.
+
+Logical Grouping:
+	- Resource groups exist to help manage and organise your Azure Resources. 
+	- By placing resources of similar usage type and location in a resource group, you can provide order and organisation to resources you create in Azure.
+
+Life Cycle:
+	- If you delete a resource group, all resources contained wihtin it are also deleted. Organising resources by life cycle can be useful in non produtive environments or experiment ones,
+	 - Resource groups make it easy to remove a set of resources at once.
+
+Authorisation:
+	- 
+				
+
+
+
+
+
 	
 
 
