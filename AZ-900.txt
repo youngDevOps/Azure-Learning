@@ -146,14 +146,37 @@ Azure Top down organisation hierarchy:
 	  For each subscription, there are limits or quotas on the amounts of resources that you can create or use.
 	  Organisations can use subscriptions to manage costs and the resources that are created by users, teams or projects.
 	- Management Groups - Groups that help you manage access, policy and compliance for multiple subscriptions. 
-	  All subscriptions in a management group automatically inherit the conditions applied to the management group.
+		- All subscriptions in a management group automatically inherit the conditions applied to the management group.
+	  	- Must Trust the same AD tenet.
+		- 10,000 management groups in a single directory
+		- A management group tree can support up to six levels of depth. This limit dosen't include the root level or the subscription.
+		- Each management group and subscription can support only one parent
+		- Each management group can have many children.
+		- All Subscriptions and management groups are whithin a single hierarchy in each directory.
+	
 
 Azure Subscriptions:
 	- Using Azure Requires a subscription
 	- A subscription provides you with authenticated and authorised access to Azure Products and Services
 	- Allows you to provision resources
 	- An Azure subscription is a logical unit of Azure Services that links to an Azure account, which is an identity of in Azure AD or in a directory, Azure Trusts.
+	- You can use Azure subscriptions to deifne boundries around Azure Products, services and resources.
+	- Subscription boundries:
+		- Billing - Determines how an Azure account is billed for using Azure. Can create multiple subscriptions for differant types of billing requirements.
+					Azure generates sperate billing reports and invoices for each subscription so that you can orgnaise and manage costs.
+		- Access Control boundries - Azure Applies access-management policies at the subscription level, and you can create seperate subscriptions to reflext differant orginisational structures.
+		 							 Examples is that within a business, you have differant departments to which you apply distinct Azure subscription policies.
+									 This billing model allows you to manage and control access to the resources that users provision with specific subscriptions.
+	- Reasons to create additional subscriptions include:
+		- Environments - When Managing your resources you can choose to create a subscription to set up seperate environments for development, testing, security or to isolate data for compliance reasons.
+		- Orginisational Structure - You can create subscriptions to reflect differant orginisational structures. E.g. you could limit a team to lower cost resources but give one team full range.
+		  This design is particularly useful because resource access control occurs at the subscription level.
+		- Billing - Create additional subscriptions for billing, to manage and track costs in e.g. dev or test.
+		- Subscription limits - Subscriptions are bound to some hard limits e.g. the maximum number of Azure ExpressRoute circuits per subscription is 10. 
+		- Customise Billing - E.g. for clients or departments.
+
 	
+
 
 
 
